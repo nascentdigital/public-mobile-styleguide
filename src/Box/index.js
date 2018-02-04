@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 import styled from 'styled-components';
 
 const Box = (props) => {
@@ -9,14 +8,14 @@ const Box = (props) => {
   `
 
 
-  const colorList = props.colors.map((color) => {
+  const colorList = props.colors.map((color, i) => {
     const ColorBox = styled.div`
       background: ${color.color};
       width: 100px;
       height: 100px;
     `
     return (
-      <div>
+      <div key={i}>
       <Header>{color.name}</Header>
         <ColorBox />
       </div>
