@@ -8,18 +8,28 @@ const Box = (props) => {
     font-family: "Open Sans", sans-serif;
   `
 
-  const ColorBox = styled.div`
-    background: ${props.colors.color};
-    width: 100px;
-  	height: 100px;
-  `
 
+  const colorList = props.colors.map((color) => {
+    const ColorBox = styled.div`
+      background: ${color.color};
+      width: 100px;
+      height: 100px;
+    `
     return (
       <div>
-      <Header>{props.colors.name}</Header>
+      <Header>{color.name}</Header>
         <ColorBox />
       </div>
     )
+  })
+
+  return (
+    <div>
+      {colorList}
+    </div>
+  )
+
+
 }
 
 

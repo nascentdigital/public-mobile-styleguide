@@ -15,10 +15,27 @@ const Page = styled.div`
 const Header = styled.h1`
   font-family: "Open Sans", sans-serif;
 `
-const colors = {
-    color: '#3e3934',
-    name: 'Grey Darkest'
-}
+const colors = [
+    {color: '#3e3934',
+    name: 'Grey Darkest'},
+    {color: '#514c48',
+    name: 'Grey Medium'},
+    {color: '#777470',
+    name: 'Grey Lighter'},
+    {color: '#9f9d9a',
+    name: 'Grey Lightest'},
+    {color: '#c8f1e7',
+    name: 'Blue'},
+    {color: '#ffffff',
+    name: 'White'},
+    {color: '#E96324',
+    name: 'Orange'},
+    {color: '#EA713A',
+    name: 'Orange Dark'},
+    {color: '#d95011',
+    name: 'Orange Light'}
+  ]
+
 
 ReactDOM.render(
   <Page>
