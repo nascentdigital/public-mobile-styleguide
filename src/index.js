@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import styled from 'styled-components';
+import Box from './Box';
 import './index.css';
 
 const Page = styled.div`
@@ -14,18 +15,16 @@ const Page = styled.div`
 const Header = styled.h1`
   font-family: "Open Sans", sans-serif;
 `
-const ColorBox = styled.div`
-  background: #3e3934;
-  width: 100px;
-	height: 100px;
-
-`
+const colors = {
+    color: '#3e3934',
+    name: 'Grey Darkest'
+}
 
 ReactDOM.render(
   <Page>
   <Header>Style Guidelines</Header>
     <h2>Primary Colors</h2>
-    <ColorBox />
+    <Box colors={colors} />
   </Page>,
   document.getElementById('root')
 );
