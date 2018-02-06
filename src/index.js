@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import styled from 'styled-components';
 import Box from './Box';
 import ButtonLinkPrimary from './Buttons/ButtonLinkPrimary';
+import ButtonLinkPrimaryLight from './Buttons/ButtonLinkPrimaryLight';
 import colors from './colors.json';
 
 
@@ -25,9 +26,8 @@ ReactDOM.render(
     <h2>Primary Colors</h2>
     <p> To use import colors from ui/src/utils/colors </p>
     <Box colors={colors} />
-    <div>
-      <ButtonLinkPrimary />
-    </div>
+    <ButtonLinkPrimary />
+    <ButtonLinkPrimaryLight />
   </Page>,
   document.getElementById('root')
 );

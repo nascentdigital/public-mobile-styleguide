@@ -17,6 +17,7 @@ const ButtonLinkPrimary = props => {
     text-decoration: none;
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
+    display:block;
 
     &:hover {
       background-color: ${colors.orangelight};
@@ -26,10 +27,8 @@ const ButtonLinkPrimary = props => {
       background-color: ${colors.orangedark};
     }
 
-    ${media.mobile`
-      display:block;
-    `} ${media.tabletAndUp`
-      width: 50%;
+  ${media.tabletAndUp`
+      width: 25%;
       min-width: 261px;
     `};
   `

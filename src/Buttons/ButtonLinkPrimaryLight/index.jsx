@@ -1,11 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import colors from '../colors'
+import colors from '../../colorcode'
+import media from '../../mediaQueries'
 
 const ButtonLinkPrimaryLight = props => {
   const Link = styled.a`
     text-align: center;
     border-radius: 8px;
+    font-family: Open Sans, sans-serif;
     background-color: ${colors.white};
     color: ${colors.orangemedium};
     padding: 13px;
@@ -16,6 +18,7 @@ const ButtonLinkPrimaryLight = props => {
     display: table-cell;
     border-radius: 8px;
     border: solid 3px ${colors.orangemedium};
+    display:block;
 
     &:hover {
       background-color: ${colors.orangelight};
@@ -29,10 +32,8 @@ const ButtonLinkPrimaryLight = props => {
       border: solid 3px ${colors.orangedark};
     }
 
-    ${media.mobile`
-      display:block;
-    `} ${media.tabletAndUp`
-      width: 50%;
+    ${media.tabletAndUp`
+      width: 25%;
       min-width: 261px;
     `};
   `
