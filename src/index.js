@@ -19,7 +19,6 @@ const Header = styled.h1`
 `
 
 
-
 ReactDOM.render(
   <Page>
   <Header>Style Guidelines</Header>

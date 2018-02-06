@@ -7,6 +7,13 @@ const Box = (props) => {
     font-family: "Open Sans", sans-serif;
   `
 
+  const Boxes = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+  `
+  const Container = styled.div`
+    padding: 20px;
+  `
 
   const colorList = props.colors.map((color, i) => {
     const ColorBox = styled.div`
@@ -14,19 +21,20 @@ const Box = (props) => {
       width: 100px;
       height: 100px;
     `
+
     return (
-      <div key={i}>
+      <Container key={i}>
       <Header>{color.name}</Header>
         <p> {color.color} </p>
         <ColorBox />
-      </div>
+      </Container>
     )
   })
 
   return (
-    <div>
+    <Boxes>
       {colorList}
-    </div>
+    </Boxes>
   )
 
 
