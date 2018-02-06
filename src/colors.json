@@ -1,20 +1,63 @@
  [
     {"color": "#3e3934",
-    "name": "Grey Darkest"},
+    "name": "Grey Dark",
+    "id": "greydark" },
     {"color": "#514c48",
-    "name": "Grey Medium"},
+    "name": "Grey Medium",
+    "id": "greymedium"},
     {"color": "#777470",
-    "name": "Grey Lighter"},
+    "name": "Grey Light",
+    "id": "greylight"},
     {"color": "#9f9d9a",
-    "name": "Grey Lightest"},
+    "name": "Grey Lightest",
+    "id": "greylightest"},
     {"color": "#c8f1e7",
-    "name": "Blue"},
+    "name": "Teal Lightest",
+    "id": "teallightest"},
     {"color": "#ffffff",
-    "name": "White"},
+    "name": "White",
+    "id": "white"},
     {"color": "#E96324",
-    "name": "Orange"},
+    "name": "Orange Medium",
+    "id": "orangemedium"},
     {"color": "#EA713A",
     "name": "Orange Dark"},
     {"color": "#d95011",
-    "name": "Orange Light"}
+    "name": "Orange Dark",
+    "id": "orangedark"},
+    {"color" : "#018096",
+    "name": "Teal Dark",
+    "id": "tealdark"},
+    {"color": "#198CA0",
+    "name": "Teal Medium",
+    "id": "tealmedium"},
+    {"color": "#3399AB",
+      "name": "Teal Light",
+      "id": "teallight" },
+      {
+        "color": "#ea713a",
+        "name": "Orange Light",
+        "id": "orangelight"
+      },
+      {
+        "color": "#0055b8",
+        "name": "Blue Dark",
+        "id": "bluedark"
+      },
+      {
+        "color": "#1966bf",
+        "name": "Blue Medium",
+        "id": "bluemedium"
+      },
+      {
+        "color": "#3378c5",
+        "name": "Blue Light",
+        "id": "bluelight"
+      },
+      {
+        "color": "#4c88cd",
+        "name": "Blue Lightest",
+        "id": "bluelightest"
+      }
+      
   ]
