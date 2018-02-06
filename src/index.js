@@ -23,6 +23,7 @@ ReactDOM.render(
   <Page>
   <Header>Style Guidelines</Header>
     <h2>Primary Colors</h2>
+    <p> To use import colors from ui/src/utils/colors </p>
     <Box colors={colors} />
   </Page>,
   document.getElementById('root')

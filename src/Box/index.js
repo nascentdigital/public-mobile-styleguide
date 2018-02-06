@@ -17,6 +17,7 @@ const Box = (props) => {
     return (
       <div key={i}>
       <Header>{color.name}</Header>
+        <p> {color.color} </p>
         <ColorBox />
       </div>
     )
