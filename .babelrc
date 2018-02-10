@@ -1,0 +1,93 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "and_chr 61",
+            "and_uc 11.4",
+            "chrome 62",
+            "chrome 61",
+            "chrome 60",
+            "edge 16",
+            "edge 15",
+            "firefox 57",
+            "firefox 56",
+            "firefox 52",
+            "ie 11",
+            "ie 10",
+            "ie_mob 11",
+            "ie_mob 10",
+            "ios_saf 11",
+            "ios_saf 10.3",
+            "op_mini all",
+            "opera 48",
+            "opera 47",
+            "safari 11",
+            "safari 10.1",
+            "samsung 5",
+            "samsung 4"
+          ]
+        }
+      }
+    ],
+    "react",
+    "stage-2"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        [
+          "styled-components",
+          {
+            "ssr": true,
+            "displayName": true,
+            "preprocess": false
+          }
+        ]
+      ]
+    },
+    "production": {
+      "plugins": [
+        [
+          "styled-components",
+          {
+            "ssr": true,
+            "displayName": true,
+            "preprocess": false
+          }
+        ]
+      ],
+      "presets": [
+        "react-optimize",
+        "es2015",
+        "react"
+      ]
+    },
+    "node": {
+      "plugins": [
+        [
+          "dynamic-import-node"
+        ],
+        [
+          "babel-plugin-transform-require-ignore",
+          {
+            "extensions": [
+              ".scss",
+              ".css"
+            ]
+          }
+        ],
+        [
+          "styled-components",
+          {
+            "ssr": true,
+            "displayName": true,
+            "preprocess": false
+          }
+        ]
+      ]
+    }
+  }
+}
