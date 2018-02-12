@@ -1,11 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import styled from 'styled-components';
-import Box from './Box';
-import ButtonLinkPrimary from './Buttons/ButtonLinkPrimary';
-import ButtonLinkPrimaryLight from './Buttons/ButtonLinkPrimaryLight';
-import colors from './colors.json';
-
+import { ButtonLinkPrimary } from './Buttons/ButtonLinkPrimary';
 
 const Page = styled.div`
   overflow: hidden;
@@ -25,9 +21,7 @@ ReactDOM.render(
   <Header>Style Guidelines</Header>
     <h2>Primary Colors</h2>
     <p> To use import colors from ui/src/utils/colors </p>
-    <Box colors={colors} />
-    <ButtonLinkPrimary />
-    <ButtonLinkPrimaryLight />
+    <ButtonLinkPrimary> Button </ButtonLinkPrimary>
   </Page>,
   document.getElementById('root')
 );

@@ -32,8 +32,7 @@
         }
       }
     ],
-    "react",
-    "stage-2"
+    "react"
   ],
   "env": {
     "development": {
