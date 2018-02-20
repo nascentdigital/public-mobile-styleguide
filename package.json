@@ -10,18 +10,22 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.0",
-    "styled-components": "^3.1.5",
-    "webpack": "^3.11.0"
+    "styled-components": "^3.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"  
   },
   "description": "Public Mobile Styleguide",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "react-styleguidist": "^6.2.5",
+    "webpack": "^3.11.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nascentdigital/public-mobile-styleguide.git"
