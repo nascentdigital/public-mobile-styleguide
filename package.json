@@ -13,8 +13,8 @@
     "styled-components": "^3.1.5"
   },
   "scripts": {
-    "start": "styleguidist server ./src/App.js",
-    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "build": "styleguidist build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "styleguide": "styleguidist server ./src/App.js",
