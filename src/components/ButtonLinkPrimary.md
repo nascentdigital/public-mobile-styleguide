@@ -1,5 +1,5 @@
-ButtonLinkPrimary example:
+Button example (the props are primary or secondary):
 
 ```
-<ButtonLinkPrimary>  Get Started Today </ButtonLinkPrimary>
+<ButtonLinkPrimary type="primary">  Get Started Today </ButtonLinkPrimary>
 ```

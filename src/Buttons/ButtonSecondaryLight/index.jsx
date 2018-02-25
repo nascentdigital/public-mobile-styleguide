@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import PropTypes from 'prop-types'
-import colors from '../../../../utils/colors'
-import media from '../../../../utils/mediaQueries'
+import colors from '../colors'
 
 const ButtonSecondaryLight = props => {
   const Link = styled.button`
@@ -40,13 +38,8 @@ const ButtonSecondaryLight = props => {
       min-width: 261px;
     `};
   `
-  const { url, text } = props
-  return <Link href={url}>{text}</Link>
+  return <Link href="/"> Button</Link>
 }
 
-ButtonSecondaryLight.propTypes = {
-  url: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired
-}
 
 export default ButtonSecondaryLight
