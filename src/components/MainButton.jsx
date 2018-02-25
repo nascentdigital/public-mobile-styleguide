@@ -34,7 +34,7 @@ import media from '../mediaQueries'
    `};
  `
 
-class ButtonLinkPrimary extends Component {
+class MainButton extends Component {
 
   constructor(props) {
   super(props);
@@ -67,9 +67,9 @@ class ButtonLinkPrimary extends Component {
   }
 };
 
-ButtonLinkPrimary.propTypes = {
+MainButton.propTypes = {
 	children: PropTypes.node.isRequired
 };
 
 
-export default ButtonLinkPrimary
+export default MainButton
