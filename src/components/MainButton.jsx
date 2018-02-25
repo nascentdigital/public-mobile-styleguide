@@ -61,7 +61,6 @@ class MainButton extends Component {
 
   render() {
     return (
-
       <ButtonType style={this.getColor()}> {this.props.children} </ButtonType>
     )
   }
