@@ -15,7 +15,6 @@ const Header = styled.h1`
   font-family: "Open Sans", sans-serif;
 `
 
-
 ReactDOM.render(
   <Page>
   <Header>Style Guidelines</Header>
