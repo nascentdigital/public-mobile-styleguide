@@ -1,1 +1,1 @@
-web: yarn run styleguidist server
+web: npm run styleguidist server
