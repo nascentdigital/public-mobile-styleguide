@@ -1,1 +1,1 @@
-react: npm styleguide
+styleguidist: bin/yarn run styleguidist server
