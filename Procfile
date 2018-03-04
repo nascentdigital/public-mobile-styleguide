@@ -1,1 +1,1 @@
-web: npm run styleguide
+web: npm run styleguide 0.0.0.0:$PORT
