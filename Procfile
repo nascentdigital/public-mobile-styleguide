@@ -1,1 +1,1 @@
-styleguidist: bin/yarn run styleguidist server
+yarn run styleguidist server
