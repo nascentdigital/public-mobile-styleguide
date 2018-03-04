@@ -1,2 +1,1 @@
-web: npm install react-styleguidist 
-web: npm run styleguidist server ./src/index.js
+web: npm install react-styleguidist & npm run styleguidist server ./src/index.js
