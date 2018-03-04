@@ -1,1 +1,1 @@
-yarn run styleguidist server
+web: yarn run styleguidist server
