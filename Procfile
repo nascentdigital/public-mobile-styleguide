@@ -1,1 +1,1 @@
-web: npm run styleguide -Dserver.port=$PORT
+web: npm run styleguide -p $PORT
