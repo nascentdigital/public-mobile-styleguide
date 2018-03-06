@@ -1,0 +1,8 @@
+Icon:
+
+```
+<div>
+  <ExpandIcon />  
+</div>
+
+```

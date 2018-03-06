@@ -13,6 +13,7 @@ const Page = styled.div`
 
 const Header = styled.h1`
   font-family: "Open Sans", sans-serif;
+
 `
 
 ReactDOM.render(

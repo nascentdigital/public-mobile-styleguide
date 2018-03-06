@@ -15,6 +15,10 @@ const sizes = {
   mobileAndUp: {
     min: 340
   },
+  mobileAndTablet: {
+    min: 340,
+    max: 920
+  },
   tabletAndUp: {
     min: 581
   }
