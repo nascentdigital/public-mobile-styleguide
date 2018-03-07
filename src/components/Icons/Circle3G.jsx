@@ -1,10 +1,8 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import colors from '../../colors'
 import media from '../../mediaQueries'
 import fontSize from '../../fontSize'
-
 
 const Circle3G = () => {
   const CircleWrap = styled.svg`
@@ -31,6 +29,7 @@ const Circle3G = () => {
   const Text = styled.text`
     fill: ${colors.white};
     font-weight: 600;
+    font-family: Open Sans, sans-serif;
     ${fontSize(16)}
 
     ${media.desktop`

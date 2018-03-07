@@ -1,4 +1,4 @@
-Icon:
+Circle Check Small:
 
 ```
 <div>

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import colors from '../colors'
 import media from '../mediaQueries'
 import fontSize from '../fontSize'
-import Chevron from './Chevron'
+import Chevron from './Icons/Chevron'
 
 const TextLink = props => {
   const Link = styled.a`

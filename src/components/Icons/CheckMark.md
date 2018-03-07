@@ -1,4 +1,4 @@
-Icon:
+CheckMark:
 
 ```
 <div>

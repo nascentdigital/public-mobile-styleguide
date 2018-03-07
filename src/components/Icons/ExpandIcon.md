@@ -1,4 +1,4 @@
-Icon:
+Expand icon:
 
 ```
 <div>

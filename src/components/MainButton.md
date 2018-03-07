@@ -1,4 +1,4 @@
-Button example (the props are primary or secondary):
+This is a main button example (the props are primary or secondary):
 
 ```
 <div>

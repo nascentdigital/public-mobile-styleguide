@@ -1,15 +1,14 @@
-import React from 'react'
 import styled from 'styled-components'
 import colors from '../../../colorcode'
 import media from '../../../mediaQueries'
 
-const ButtonLinkSecondaryLight = props => {
-  const Link = styled.a`
+  const ButtonLinkSecondaryLight = styled.a`
     text-align: center;
     border-radius: 8px;
     background-color: ${colors.white};
     color: ${colors.greydark};
     padding: 13px;
+    font-family: Open Sans, sans-serif;
     font-weight: 400;
     text-decoration: none;
     -webkit-transition: background-color 0.3s;
@@ -36,11 +35,8 @@ const ButtonLinkSecondaryLight = props => {
       display:block;
     `} ${media.tabletAndUp`
       width: 50%;
-      min-width: 261px;
     `};
   `
-  return <Link href="/"> Button</Link>
-}
 
 
 export default ButtonLinkSecondaryLight

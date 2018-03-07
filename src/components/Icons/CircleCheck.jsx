@@ -2,8 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import colors from '../../colors'
-import media from '../../mediaQueries'
-import fontSize from '../../fontSize'
 
  const CircleCheck = ({ className }) => {
   const CircleWrap = styled.svg`

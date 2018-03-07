@@ -1,12 +1,11 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import colors from '../../colors'
 import media from '../../mediaQueries'
 import fontSize from '../../fontSize'
 
 
-export const CircleLTE = () => {
+ const CircleLTE = () => {
   const CircleWrap = styled.svg`
     width: 40px;
     height: 40px;
@@ -31,6 +30,7 @@ export const CircleLTE = () => {
   const Text = styled.text`
     fill: ${colors.white};
     font-weight: 600;
+    font-family: Open Sans, sans-serif;
     ${fontSize(16)}
 
     ${media.desktop`
@@ -46,3 +46,5 @@ export const CircleLTE = () => {
     </CircleWrap>
   )
 }
+
+export default CircleLTE

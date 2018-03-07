@@ -1,13 +1,12 @@
-import React from 'react'
 import styled from 'styled-components'
 import colors from '../../../colorcode'
 import media from '../../../mediaQueries'
 
 
-const ButtonPrimaryLight = props => {
-  const Link = styled.button`
+  const ButtonPrimaryLight = styled.button`
     text-align: center;
     border-radius: 8px;
+    font-family: Open Sans, sans-serif;
     background-color: ${colors.white};
     color: ${colors.orangemedium};
     padding: 13px;
@@ -34,11 +33,9 @@ const ButtonPrimaryLight = props => {
     ${media.mobile`
       display:block;
     `} ${media.tabletAndUp`
+      max-width: 261px;
       width: 50%;
-      min-width: 261px;
     `};
   `
-  return <Link href="/"> Button</Link>
-}
 
 export default ButtonPrimaryLight
